@@ -1,0 +1,38 @@
+# Título do projeto
+
+Sistema de agendamento de barbearia
+
+<img src="/public/projetoimg/barbershop1.png">
+
+## 🚀 COMO FUNCIONA?
+
+Ao entrar no site, o usuário poderá agendar um horário para cortar o cabelo. O mesmo irá poder verificar os horários disponíveis e colocar seu nome na agenda
+
+### 🔧 Instalação
+Instale o visual studio code (Editor de Código)
+
+Instale a extensão "Live Server" no vscode
+
+```
+Dê um git clone no projeto
+Inicie os arquivos html com a extensão do vscode "Live Server"
+```
+
+## 🛠️ Construído com
+
+HTML
+CSS
+Javascript
+
+## 📌 Versão
+
+GIT
+
+## ✒️ Autores
+
+Marco Viana
+
+## 📄 Licença
+
+Este projeto está sob a licença (MIT)
+---

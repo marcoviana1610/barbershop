@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Agendamento de Barbearia</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="docriabarbershop.png" alt="Barbearia Logo" />
+      </div>
+    </header>
+    <main>
+      <div class="time-slots">
+        <h2>Horários Disponíveis</h2>
+        <ul id="time-list">
+          <!-- Horários disponíveis serão preenchidos aqui -->
+        </ul>
+      </div>
+
+      <div class="appointment-form">
+        <h2>Agendar um Horário</h2>
+        <form id="appointment-form">
+          <label for="time">Escolha um Horário:</label>
+          <select id="time" required>
+            <!-- Opções de horários serão preenchidas aqui -->
+          </select>
+          <div class="infouser">
+            <label for="name">Seu Nome:</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="ex: João Silva"
+              required
+            />
+          </div>
+          <button type="submit">Agendar</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2023 Barbearia Do Cria</p>
+    </footer>
+    <div id="divalink"><a href="panel.html">ir para painel</a></div>
+    <script src="script.js"></script>
+  </body>
+</html>
